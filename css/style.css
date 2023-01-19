@@ -1,0 +1,477 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Lobster&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+/* color variables */
+:root{
+    --primary: #0a0a0a;
+    --secondary: #0e0d0e;
+    --pale: #dbb29b;
+    --rubyred: #A31621;
+    --flame: #E16036;
+}
+
+*, ::after, ::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', monospace;
+}
+
+section{
+    overflow-x: hidden;
+}
+
+body, .dropdown-menu, .dropdown-item, .modal-content, .close-modal, .progress{
+    background-color: var(--secondary);
+}
+
+/* header */
+.header, .footer, .round{
+    padding: 0.5em;
+}
+
+.header, .footer, .round, #refresh, .container-fluid, .extend{
+    width: 100%;
+}
+
+.header, .footer, .round, .header h1, .rank, .leaderboard, .leaderboard-list, .dropdown-item, .home, .modal-body h3{
+    font-family: Lobster, sans-serif;
+    color: var(--flame);
+}
+
+#scrollBtn, .leaderboard, .round, .btn-group-vertical, #winnerTitle{
+    background-color: var(--flame);
+}
+
+#scrollBtn{
+    position: fixed;
+    bottom: 3rem;
+    right: 2rem;
+    display: none;
+    min-width: 3rem;
+    height: 3rem;
+    box-shadow: 0.2rem 0.2rem 0.5rem rgba(0,0,0,.8);
+}
+
+#scrollBtn::before{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 0.5em solid transparent;
+    border-right: 0.5em solid transparent;
+    border-bottom: 0.5em solid var(--primary);
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%)
+}
+
+.leaderboard, .round{
+    color: var(--primary);
+}
+
+.leaderboard{
+    margin: 1rem 0 1rem 0;
+    height: 3.5rem;
+    letter-spacing: 0.2rem;
+    font-weight: 700;
+    padding-left: 1rem;
+}
+
+.display-movies, #refresh, .well, .btn-group-vertical, p{
+    margin: 0;
+    padding: 0;
+}
+
+.display-movies{
+    margin-bottom: 1rem;
+}
+
+.display-movies h2{
+    font-size: 1rem;
+}
+
+.display-movies h2, .close-modal, .movie-title, .round-number-label, .btn-group-vertical, p{
+    color: var(--pale);
+}
+
+.dropdown{
+    width: 5rem;
+    position: relative;
+}
+
+.leaderboard-list, .arrow, .rank, .well, .choose-movie, .round-number-label, .header, .footer{
+    background-color: var(--primary);
+}
+
+.leaderboard-list{
+    height: 100%;
+    padding: 0 3rem 0 1rem;
+    border: 0;
+}
+
+.leaderboard-list:hover{
+    color: var(--pale);
+}
+
+.leaderboard-list::after{
+    content:none;
+}
+
+.arrow{
+    position: absolute;
+    height: 100%;
+    top: 0;
+    right: 0;
+    width: 1.5em;
+    pointer-events: none;
+}
+
+.arrow::before{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 0.4em solid transparent;
+    border-right: 0.4em solid transparent;
+    border-top: 0.4em solid var(--flame);
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%)
+}
+
+.leaderboard-list:hover + .arrow::before{
+    border-top: 0.4em solid var(--pale);
+}
+
+.dropdown-menu{
+    box-shadow: 1rem 1rem 1rem rgba(0,0,0,.5);
+}
+
+.dropdown-menu::after{
+    content:"";
+}
+
+.dropdown-item:hover{
+    cursor: pointer;
+    background-color: rgba(0,0,0,.2);
+    color: var(--pale);
+}
+
+.rank{
+    margin-right: 0.5rem;
+    min-width: 2rem;
+    height: 2rem;
+    font-size: 1.5rem;
+    border: 0.15rem solid var(--flame);
+    color: white;
+}
+
+/* home button */
+.home{
+    min-width: 150px;
+    font-size: 1.5rem;
+}
+
+.home:hover{
+    background-color: var(--secondary);
+    color: white;
+    border-color: var(--flame);
+}
+
+.round{
+    font-size: 1.5rem;
+    letter-spacing: 0.2rem;
+    margin-bottom: 2rem;
+}
+
+.round, .header h1{
+    word-spacing: 0.6rem;
+}
+
+.container-fluid{
+    margin: 0;
+    margin-bottom: 3rem;
+}
+
+/* sections */
+.section{
+    position: relative;
+}
+
+/* movie items */
+.movie-container{
+    margin-bottom: 2rem;
+    width: 385px;
+}
+
+/* movie backdrop */
+.well{
+    width: 100%;
+    height: auto;
+}
+
+.movie-info-flex{
+    margin: 1rem;
+    margin-top: 0;
+    font-size: 0.7rem;
+    color:white;
+}
+
+.movie-title{
+    font-size: 0.85rem;
+    margin-top: 1rem;
+    margin-right: 0.5rem;
+}
+
+.wins-number, .win-rate-header, .win-rate-percent{
+    font-size: 0.7rem;
+    color: white;
+    opacity: 0.5;
+}
+
+.movie-info{
+    border-top: 0.1rem solid rgba(86,70,61,0.5);
+    padding-top: 1rem;
+
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+
+.expand{
+    margin-top: 0.3rem;
+    appearance: none;
+    color: var(--flame);
+    border: 0.1rem solid var(--primary);
+    padding: 0.3rem;
+    cursor: pointer;
+    width: 30%;
+}
+
+.expand:hover{
+    border: 0.1rem solid var(--flame);
+    color: white;
+}
+
+.expand::before{
+    content: "+ SHOW MORE";
+}
+
+.expand:checked::before{
+    content: "- SHOW LESS";
+}
+
+.movie-info:has(+ .expand:checked){
+    -webkit-line-clamp: initial;
+}
+
+img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    padding: 1rem;
+    min-width: 120px;
+}
+
+.movie-yt-container{
+    position: relative;
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 56.25%;
+}
+
+iframe{
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+}
+
+.movie-img{
+    max-height: 200px;
+    max-width: 135px;
+}
+
+.movie-section .movie-title{
+    font-weight: 700;
+    font-size: 1.5rem;
+    white-space: nowrap;
+    margin-bottom: 1rem;
+}
+
+.movie-section{
+    padding: 0;
+    height: 600px;
+    width: 800px;
+    
+}
+
+.game-img{
+    max-height: 747px;
+    max-width: 500px;
+}
+
+.choose-movie{
+    letter-spacing: 0.3rem;
+    font-weight: bold;
+    font-size: 1.2rem;
+    border-color: var(--pale);
+    width: 100%;
+    max-width: 500px;
+    margin-top: 1rem;
+}
+
+.choose-movie:hover{
+    background-color: var(--flame);
+    border-color: var(--flame);
+}
+
+.play-game{
+    font-size: 1.2rem;
+    background-color: var(--rubyred);
+    color: white;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.play-game:hover{
+    background-color: var(--pale);
+    border-color: var(--primary);
+}
+
+.modal-content{
+    max-width: 500px;
+    min-width: 350px;
+    height: auto;
+}
+
+.modal-body, .modal-header, .modal-footer, .close-modal, .start-game{
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+.modal-body{
+    margin: 0 1rem;
+}
+
+.modal-header{
+    height: 2rem;
+}
+
+.modal-title{
+    margin: 1rem 0;
+}
+
+.close-modal{
+    user-select: none;
+    margin: 0.5rem;
+    font-size: 2em;
+    line-height: 1em;
+}
+
+.close-modal:hover{
+    color: white;
+    background-color: var(--secondary);
+}
+
+.btn-check:checked+.btn{
+    color:var(--rubyred);
+    border-color: var(--pale);
+}
+
+#winnerTitle{
+    margin: 1rem;
+}
+
+.round-number-label{
+    border-radius: 0;
+}
+
+.modal-footer{
+    margin: 1rem 0;
+}
+
+.start-game{
+    font-weight: 700;
+    text-transform: uppercase;
+    background-color: var(--rubyred);
+    font-size: 1.2rem;
+    width: 60%;
+    padding: 0.5rem;
+}
+
+.start-game:hover{
+    background-color: var(--pale);
+}
+
+.progress{
+    margin-bottom: 0.3rem;
+    width: 90%;
+    height: 0.7rem;
+}
+
+.progress-bar{
+    background-color: var(--rubyred);
+    border-radius: 0;
+}
+
+.footer{
+    margin-top: 2rem;
+    position: fixed;
+    bottom: 0;
+}
+
+body::-webkit-scrollbar{
+    width: 1em;
+    background-color: var(--secondary);
+}
+
+body::-webkit-scrollbar-thumb{
+    background-color: var(--pale);
+}
+
+@media only screen and (max-width: 500px){
+    .movie-yt-container{
+        height: 320px;
+        width: 100%;
+    }
+
+    html{
+        font-size: 14px;
+    }
+
+    .movie-section .movie-title{
+        font-size: 1.2rem;
+        white-space: normal;
+    }
+
+    .choose-movie{
+        margin-bottom: 2rem;
+    }
+
+    .round{
+        margin-bottom: 0;
+    }
+
+    .home{
+        color: var(--pale);
+        border-color: var(--flame);
+        padding: 0.2rem;
+    }
+}
+
+@media only screen and (max-width: 1650px){
+    .movie-section{
+        width: 1000px;
+        height: auto;
+        margin-bottom: 2rem;
+    }
+}

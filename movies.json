@@ -1,0 +1,977 @@
+{
+    "movies":[
+        {
+            "name": "The Dark Knight",
+            "info": "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice.",
+            "wins": 80,
+            "games played": 131,
+            "year": 2008,
+            "img dir": "img/the_dark_knight.jpg",
+            "trailer url": "EXeTwQWrcwY"
+        },
+        {
+            "name": "Black Panther",
+            "info": "T'Challa, heir to the hidden but advanced kingdom of Wakanda, must step forward to lead his people into a new future and must confront a challenger from his country's past.",
+            "wins": 23,
+            "games played": 109,
+            "year": 2018,
+            "img dir": "img/black_panther.jpg",
+            "trailer url": "xjDjIWPwcPU"
+        },
+        {
+            "name": "Django Unchained",
+            "info": "With the help of a German bounty-hunter, a freed slave sets out to rescue his wife from a brutal plantation-owner in Mississippi.",
+            "wins": 52,
+            "games played": 122,
+            "year": 2012,
+            "img dir": "img/django_unchained.jpg",
+            "trailer url": "0fUCuvNlOCg"
+        },
+        {
+            "name": "Interstellar",
+            "info": "Earth's future has been riddled by disasters, famines, and droughts. There is only one way to ensure mankind's survival: Interstellar travel. A newly discovered wormhole in the far reaches of our solar system allows a team of astronauts to go where no man has gone before, a planet that may have the right environment to sustain human life.",
+            "wins": 52,
+            "games played": 90,
+            "year": 2014,
+            "img dir": "img/interstellar.jpg",
+            "trailer url": "zSWdZVtXT7E"
+        },
+        {
+            "name": "Indiana Jones and the Raiders of the Lost Ark",
+            "info": "Archaeology professor Indiana Jones ventures to seize a biblical artefact known as the Ark of the Covenant. While doing so, he puts up a fight against Renee and a troop of Nazis.",
+            "wins": 1,
+            "games played": 100,
+            "year": 1981,
+            "img dir": "img/indiana_jones_lost_ark.jpg",
+            "trailer url": "0xQSIdSRlAk"
+        },
+        {
+            "name": "Joker",
+            "info": "A a failed stand-up comedian is driven insane and turns to a life of crime and chaos in Gotham City while becoming an infamous psychopathic crime figure.",
+            "wins": 40,
+            "games played": 100,
+            "year": 1019,
+            "img dir": "img/joker.jpg",
+            "trailer url": "t433PEQGErc"
+        },
+        {
+            "name": "La La Land",
+            "info": "While navigating their careers in Los Angeles, a pianist and an actress fall in love while attempting to reconcile their aspirations for the future.",
+            "wins": 3,
+            "games played": 21,
+            "year": 2016,
+            "img dir": "img/la_la_land.jpg",
+            "trailer url": "0pdqf4P9MB8"
+        },
+        {
+            "name": "Spider-Man: Into the Spider-Verse",
+            "info": "Teen Miles Morales becomes the Spider-Man of his universe, and must join with five spider-powered individuals from other dimensions to stop a threat for all realities.",
+            "wins": 2,
+            "games played": 6,
+            "year": 2018,
+            "img dir": "img/spider_man_verse.jpg",
+            "trailer url": "g4Hbz2jLxvQ"
+        },
+        {
+            "name": "Harry Potter and the Deathly Hallows: Part 2",
+            "info": "Harry, Ron, and Hermione search for Voldemort's remaining Horcruxes in their effort to destroy the Dark Lord as the final battle rages on at Hogwarts.",
+            "wins": 1,
+            "games played": 50,
+            "year": 2011,
+            "img dir": "img/harry_potter2.jpg",
+            "trailer url": "mObK5XD8udk"
+        },
+        {
+            "name": "Pirates of the Caribbean: Dead Man's Chest",
+            "info": "Harry, Ron, and Hermione search for Voldemort's remaining Horcruxes in their effort to destroy the Dark Lord as the final battle rages on at Hogwarts.",
+            "wins": 2,
+            "games played": 120,
+            "year": 2006,
+            "img dir": "img/pirates_of_the_caribbean_dead_man.jpg",
+            "trailer url": "SNA-Ezahmok"
+        },
+        {
+            "name": "Gravity",
+            "info": "Dr. Ryan Stone is a brilliant medical engineer on her first shuttle mission, with veteran astronaut Matt Kowalski in command of his last flight before retiring. But on a seemingly routine spacewalk, disaster strikes. The shuttle is destroyed, leaving Stone and Kowalsky completely alone - tethered to nothing but each other and spiraling out into the blackness.",
+            "wins": 4,
+            "games played": 200,
+            "year": 2013,
+            "img dir": "img/gravity.jpg",
+            "trailer url": "OiTiKOy59o4"
+        },
+        {
+            "name": "Transformers",
+            "info": "An ancient struggle between two Cybertronian races, the heroic Autobots and the evil Decepticons, comes to Earth, with a clue to the ultimate power held by a teenager.",
+            "wins": 1,
+            "games played": 99,
+            "year": 2007,
+            "img dir": "img/transformers.jpg",
+            "trailer url": "v8ItGrI-Ou0"
+        },
+        {
+            "name": "Ready Player One",
+            "info": "When the creator of a virtual reality called the OASIS dies, he makes a posthumous challenge to all OASIS users to find his Easter Egg, which will give the finder his fortune and control of his world.",
+            "wins": 5,
+            "games played": 121,
+            "year": 2018,
+            "img dir": "img/ready_player_one.jpg",
+            "trailer url": "cSp1dM2Vj48"
+        },
+        {
+            "name": "Sherlock Holmes: A Game of Shadows",
+            "info": "Detective Sherlock Holmes is on the trail of criminal mastermind Professor Moriarty, who is carrying out a string of random crimes across Europe.",
+            "wins": 5,
+            "games played": 30,
+            "year": 2011,
+            "img dir": "img/sherlock_holmes.jpg",
+            "trailer url": "DpxtbtnC1u8"
+        },
+        {
+            "name": "The Lord of the Rings: The Fellowship of the Ring",
+            "info": "A meek Hobbit from the Shire and eight companions set out on a journey to destroy the powerful One Ring and save Middle-earth from the Dark Lord Sauron.",
+            "wins": 0,
+            "games played": 0,
+            "year": 2001,
+            "img dir": "img/lord_of_the_rings.jpg",
+            "trailer url": "V75dMMIW2B4"
+        },
+        {
+            "name": "The Matrix",
+            "info": "When a beautiful stranger leads computer hacker Neo to a forbidding underworld, he discovers the shocking truth--the life he knows is the elaborate deception of an evil cyber-intelligence.",
+            "wins": 0,
+            "games played": 0,
+            "year": 1999,
+            "img dir": "img/the_matrix.jpg",
+            "trailer url": "vKQi3bBA1y8"
+        },
+        {
+            "name": "Whiplash",
+            "info": "A promising young drummer enrolls at a cut-throat music conservatory where his dreams of greatness are mentored by an instructor who will stop at nothing to realize a student's potential.",
+            "wins": 40,
+            "games played": 100,
+            "year": 2014,
+            "img dir": "img/whiplash.jpg",
+            "trailer url": "7d_jQycdQGo"
+        },
+        {
+            "name": "WALL-E",
+            "info": "Travel to a galaxy not so far away for a cosmic comedy adventure about a determined robot named WALL-E. After hundreds of lonely years of doing what he was built for, the curious and lovable WALL-E discovers a new purpose in life when he meets a sleek search robot named EVE. Join them and a hilarious cast of characters on a fantastic journey across the universe.",
+            "wins": 0,
+            "games played": 0,
+            "year": 2008,
+            "img dir": "img/wall-e.jpg",
+            "trailer url": "CZ1CATNbXg0"
+        },
+        {
+            "name": "1917",
+            "info": "April 6th, 1917. As an infantry battalion assembles to wage war deep in enemy territory, two soldiers are assigned to race against time and deliver a message that will stop 1,600 men from walking straight into a deadly trap.",
+            "wins": 0,
+            "games played": 0,
+            "year": 2019,
+            "img dir": "img/1917.jpg",
+            "trailer url": "YqNYrYUiMfg"
+        },
+        {
+            "name": "Mad Max: Fury Road",
+            "info": "In a post-apocalyptic wasteland, a woman rebels against a tyrannical ruler in search for her homeland with the aid of a group of female prisoners, a psychotic worshiper, and a drifter named Max.",
+            "wins": 0,
+            "games played": 0,
+            "year": 2015,
+            "img dir": "img/mad_max_fury_road.jpg",
+            "trailer url": "hEJnMQG9ev8"
+        },
+        {
+            "name": "Ratatouille",
+            "info": "A rat named Remy dreams of becoming a great French chef despite his family's wishes and the obvious problem of being a rat in a decidedly rodent-phobic profession. When fate places Remy in the sewers of Paris, he finds himself ideally situated beneath a restaurant made famous by his culinary hero, Auguste Gusteau. Despite the apparent dangers of being an unlikely, and certainly unwanted, visitor in the kitchen of a fine French restaurant, Remy's passion for cooking soon sets into motion a hilarious and exciting rat race that turns the culinary world of Paris upside down.",
+            "wins": 0,
+            "games played": 0,
+            "year": 2007,
+            "img dir": "img/ratatouille.jpg",
+            "trailer url": "NgsQ8mVkN8w"
+        },
+        {
+            "name": "Pacific Rim",
+            "info": "As a war between humankind and monstrous sea creatures wages on, a former pilot and a trainee are paired up to drive a seemingly obsolete special weapon in a desperate effort to save the world from the apocalypse.",
+            "wins": 0,
+            "games played": 0,
+            "year": 2013,
+            "img dir": "img/pacific_rim.jpg",
+            "trailer url": "5guMumPFBag"
+        },
+        {
+            "name": "The Martian",
+            "info": "An astronaut becomes stranded on Mars after his team assume him dead, and must rely on his ingenuity to find a way to signal to Earth that he is alive and can survive until a potential rescue.",
+            "wins": 0,
+            "games played": 0,
+            "year": 2015,
+            "img dir": "img/martian.jpg",
+            "trailer url": "ej3ioOneTy8"
+        },
+        {
+            "name": "The Imitation Game",
+            "info": "During World War II, the English mathematical genius Alan Turing tries to crack the German Enigma code with help from fellow mathematicians while attempting to come to terms with his troubled private life.",
+            "wins": 0,
+            "games played": 0,
+            "year": 2014,
+            "img dir": "img/imitation_game.jpg",
+            "trailer url": "nuPZUUED5uk"
+        },
+        {
+            "name": "X-Men: Days of Future Past",
+            "info": "The X-Men send Wolverine to the past in a desperate effort to change history and prevent an event that results in doom for both humans and mutants.",
+            "wins": 0,
+            "games played": 0,
+            "year": 2014,
+            "img dir": "img/x-men_future_past.jpg",
+            "trailer url": "pK2zYHWDZKo"
+        },
+        {
+            "name": "Deadpool",
+            "info": "This is the origin story of former Special Forces operative turned mercenary Wade Wilson, who after being subjected to a rogue experiment that leaves him with accelerated healing powers, adopts the alter ego Deadpool. Armed with his new abilities and a dark, twisted sense of humor, Deadpool hunts down the man who nearly destroyed his life.",
+            "wins": 0,
+            "games played": 0,
+            "year": 2016,
+            "img dir": "img/deadpool.jpg",
+            "trailer url": "ONHBaC-pfsk"
+        },
+        {
+            "name": "Thor: Ragnarok",
+            "info": "Imprisoned on the planet Sakaar, Thor must race against time to return to Asgard and stop Ragnarök, the destruction of his world, at the hands of the powerful and ruthless villain Hela.",
+            "wins": 0,
+            "games played": 0,
+            "year": 2017,
+            "img dir": "img/thor_ragnarok.jpg",
+            "trailer url": "ue80QwXMRHg"
+        },
+        {
+            "name": "Iron Man",
+            "info": "A billionaire industrialist and genius inventor, Tony Stark, is conducting weapons tests overseas, but terrorists kidnap him to force him to build a devastating weapon. Instead, he builds an armored suit and upends his captors. Returning to America, Stark refines the suit and uses it to combat crime and terrorism.",
+            "wins": 0,
+            "games played": 0,
+            "year": 2008,
+            "img dir": "img/iron_man.jpg",
+            "trailer url": "8ugaeA-nMTc"
+        },
+        {
+            "name": "Avatar",
+            "info": "A paraplegic Marine dispatched to the moon Pandora on a unique mission becomes torn between following his orders and protecting the world he feels is his home.",
+            "wins": 0,
+            "games played": 0,
+            "year": 2009,
+            "img dir": "img/avatar.jpg",
+            "trailer url": "5PSNL1qE6VY"
+        },
+        {
+            "name": "The Lion King",
+            "info": "Simba idolizes his father, King Mufasa, and takes to heart his own royal destiny on the plains of Africa. But not everyone in the kingdom celebrates the new cub's arrival. Scar, Mufasa's brother -- and former heir to the throne -- has plans of his own. The battle for Pride Rock is soon ravaged with betrayal, tragedy and drama, ultimately resulting in Simba's exile. Now, with help from a curious pair of newfound friends, Simba must figure out how to grow up and take back what is rightfully his.",
+            "wins": 10,
+            "games played": 200,
+            "year": 2019,
+            "img dir": "img/lion_king.jpg",
+            "trailer url": "7TavVZMewpY"
+        },
+        {
+            "name": "Aquaman",
+            "info": "Born upon the shores of the surface world, Arthur Curry discovers that he is only half human, with the other half of his blood being of Atlanteean descent, thus making him the rightful heir to the throne of the undersea kingdom of Atlantis. However, Arthur learns that Atlantis is being ruled by his malicious half-brother Orm, who seeks to unite the seven underwater kingdoms and wage war upon the surface. With aid from Nuidis Vulko and the gorgeous Mera, Arthur must discover the full potential of his true destiny and become Aquaman in order to save Atlantis and the surface from Orm's evil plot.",
+            "wins": 1,
+            "games played": 30,
+            "year": 2018,
+            "img dir": "img/aquaman.jpg",
+            "trailer url": "WDkg3h8PCVU"
+        },
+        {
+            "name": "Alice in Wonderland",
+            "info": "Nineteen-year-old Alice returns to the magical world from her childhood adventure, where she reunites with her old friends and learns of her true destiny: to end the Red Queen's reign of terror.",
+            "wins": 0,
+            "games played": 0,
+            "year": 2010,
+            "img dir": "img/alice_wonderland.jpg",
+            "trailer url": "9POCgSRVvf0"
+        },
+        {
+            "name": "Jumanji: Welcome to the Jungle",
+            "info": "In a brand-new Jumanji adventure, four high-school kids discover an old video-game console and are drawn into the game's jungle setting, literally becoming the adult avatars they chose. What they discover is that you don't just play Jumanji--you must survive it. To beat the game and return to the real world, they must go on the most dangerous adventure of their lives, discover what Alan Parrish left 20 years ago, and change the way they think about themselves --or they'll be stuck in the game forever, to be played by others without break.",
+            "wins": 0,
+            "games played": 0,
+            "year": 2017,
+            "img dir": "img/jumanji.jpg",
+            "trailer url": "2QKg5SZ_35I"
+        },
+        {
+            "name": "Bohemian Rhapsody",
+            "info": "The story of the legendary British rock band Queen and lead singer Freddie Mercury, leading up to their famous performance at Live Aid (1985).",
+            "wins": 0,
+            "games played": 0,
+            "year": 2018,
+            "img dir": "img/bohemian_rhapsody.jpg",
+            "trailer url": "mP0VHJYFOAU"
+        },
+        {
+            "name": "Fantastic Beasts and Where to Find Them",
+            "info": "The adventures of writer Newt Scamander in New York's secret community of witches and wizards seventy years before Harry Potter reads his book in school.",
+            "wins": 0,
+            "games played": 0,
+            "year": 2016,
+            "img dir": "img/fantastic_beasts.jpg",
+            "trailer url": "ViuDsy7yb8M"
+        },
+        {
+            "name": "2012",
+            "info": "Earth's billions of inhabitants are unaware that the planet has an expiration date. With the warnings of an American scientist, world leaders begin secret preparations for the survival of select members of society. When the global cataclysm finally occurs, failed writer Jackson Curtis tries to lead his family to safety as the world starts falling apart.",
+            "wins": 0,
+            "games played": 0,
+            "year": 2009,
+            "img dir": "img/2012.jpg",
+            "trailer url": "ce0N3TEcFw0"
+        },
+        {
+            "name": "The Hunger Games Mockingjay - Part 1",
+            "info": "Katniss Everdeen is in District 13 after she shatters the games forever. Under the leadership of President Coin and the advice of her trusted friends, Katniss spreads her wings as she fights to save Peeta and a nation moved by her courage.",
+            "wins": 0,
+            "games played": 0,
+            "year": 2014,
+            "img dir": "img/hunger_games_mockingjay.jpg",
+            "trailer url": "3PkkHsuMrho"
+        },
+        {
+            "name": "The Chronicles of Narnia: The Lion, the Witch and the Wardrobe",
+            "info": "Four kids travel through a wardrobe to the land of Narnia and learn of their destiny to free it with the guidance of a mystical lion.",
+            "wins": 0,
+            "games played": 0,
+            "year": 2005,
+            "img dir": "img/chronicles_of_narnia.jpg",
+            "trailer url": "usEkWtuNn-w"
+        },
+        {
+            "name": "Dawn of the Planet of the Apes",
+            "info": "The fragile peace between apes and humans is threatened as mistrust and betrayal threaten to plunge both tribes into a war for dominance over the Earth.",
+            "wins": 0,
+            "games played": 0,
+            "year": 2014,
+            "img dir": "img/planet_of_apes.jpg",
+            "trailer url": "DpSaTrW4leg"
+        },
+        {
+            "name": "Man of Steel",
+            "info": "An alien child is evacuated from his dying world and sent to Earth to live among humans. His peace is threatened when other survivors of his home planet invade Earth.",
+            "wins": 0,
+            "games played": 0,
+            "year": 2013,
+            "img dir": "img/man_of_steel.jpg",
+            "trailer url": "T6DJcgm3wNY"
+        },
+        {
+            "name": "Men in Black",
+            "info": "They are the best-kept secret in the universe. Working for a highly funded yet unofficial government agency, Kay and Jay are the Men in Black, providers of immigration services and regulators of all things alien on Earth. While investigating a series of unregistered close encounters, the MIB agents uncover the deadly plot of an intergalactic terrorist who is on a mission to assassinate two ambassadors from opposing galaxies currently in residence in New York City.",
+            "wins": 0,
+            "games played": 0,
+            "year": 1997,
+            "img dir": "img/men_in_black.jpg",
+            "trailer url": "1Q4mhYF9aQQ"
+        },
+        {
+            "name": "The Day After Tomorrow",
+            "info": "Jack Hall, paleoclimatologist, must make a daring trek from Washington, D.C. to New York City to reach his son, trapped in the cross-hairs of a sudden international storm which plunges the planet into a new Ice Age.",
+            "wins": 0,
+            "games played": 0,
+            "year": 2004,
+            "img dir": "img/day_after_tomorrow.jpg",
+            "trailer url": "HUBDFoMNXzA"
+        },
+        {
+            "name": "Godzilla",
+            "info": "Ford Brody, a Navy bomb expert, has just reunited with his family in San Francisco when he is forced to go to Japan to help his estranged father, Joe. Soon, both men are swept up in an escalating crisis when Godzilla, King of the Monsters, arises from the sea to combat malevolent adversaries that threaten the survival of humanity. The creatures leave colossal destruction in their wake, as they make their way toward their final battleground: San Francisco.",
+            "wins": 0,
+            "games played": 0,
+            "year": 2014,
+            "img dir": "img/godzilla.jpg",
+            "trailer url": "vIu85WQTPRc"
+        },
+        {
+            "name": "Pokémon Detective Pikachu",
+            "info": "In a world where people collect Pokémon to do battle, a boy comes across an intelligent talking Pikachu who seeks to be a detective.",
+            "wins": 0,
+            "games played": 0,
+            "year": 2019,
+            "img dir": "img/pokemon.jpg",
+            "trailer url": "1roy4o4tqQM"
+        },
+        {
+            "name": "The Godfather",
+            "info": "The aging patriarch of an organized crime dynasty in postwar New York City transfers control of his clandestine empire to his reluctant youngest son.",
+            "wins": 60,
+            "games played": 140,
+            "year": 1972,
+            "img dir": "img/the_godfather.jpg",
+            "trailer url": "UaVTIH8mujA"
+        },
+        {
+            "name": "Now You See Me",
+            "info": "An F.B.I. Agent and an Interpol Detective track a team of illusionists who pull off bank heists during their performances, and reward their audiences with the money.",
+            "wins": 5,
+            "games played": 30,
+            "year": 2013,
+            "img dir": "img/now_you_see_me.jpg",
+            "trailer url": "KzJNYYkkhzc"
+        },
+        {
+            "name": "The Godfather Part II",
+            "info": "The early life and career of Vito Corleone in 1920s New York City is portrayed, while his son, Michael, expands and tightens his grip on the family crime syndicate.",
+            "wins": 0,
+            "games played": 0,
+            "year": 1974,
+            "img dir": "img/the_godfather2.jpg",
+            "trailer url": "9O1Iy9od7-A"
+        },
+        {
+            "name": "The Lord of the Rings: The Return of the King",
+            "info": "Gandalf and Aragorn lead the World of Men against Sauron's army to draw his gaze from Frodo and Sam as they approach Mount Doom with the One Ring.",
+            "wins": 0,
+            "games played": 0,
+            "year": 2003,
+            "img dir": "img/lord_of_the_rings3.jpg",
+            "trailer url": "r5X-hFf6Bwo"
+        },
+        {
+            "name": "Fight Club",
+            "info": "A nameless first person narrator attends support groups in attempt to subdue his emotional state and relieve his insomniac state. When he meets Marla, another fake attendee of support groups, his life seems to become a little more bearable. However when he associates himself with Tyler he is dragged into an underground fight club and soap making scheme. Together the two men spiral out of control and engage in competitive rivalry for love and power.",
+            "wins": 13,
+            "games played": 44,
+            "year": 1999,
+            "img dir": "img/fight_club.jpg",
+            "trailer url": "BdJKm16Co6M"
+        },
+        {
+            "name": "The Lord of the Rings: The Two Towers",
+            "info": "While Frodo and Sam edge closer to Mordor with the help of the shifty Gollum, the divided fellowship makes a stand against Sauron's new ally, Saruman, and his hordes of Isengard.",
+            "wins": 24,
+            "games played": 90,
+            "year": 2002,
+            "img dir": "img/lord_of_the_rings2.jpg",
+            "trailer url": "LbfMDwc4azU"
+        },
+        {
+            "name": "Inception",
+            "info": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O., but his tragic past may doom the project and his team to disaster.",
+            "wins": 0,
+            "games played": 0,
+            "year": 2010,
+            "img dir": "img/inception.jpg",
+            "trailer url": "YoHD9XEInc0"
+        },
+        {
+            "name": "Terminator 2: Judgement Day",
+            "info": "A cyborg, identical to the one who failed to kill Sarah Connor, must now protect her 10-year old adolescent son John from an even more advanced and powerful cyborg.",
+            "wins": 0,
+            "games played": 0,
+            "year": 1991,
+            "img dir": "img/terminator2.jpg",
+            "trailer url": "lwSysg9o7wE"
+        },
+        {
+            "name": "Back to the Future",
+            "info": "Marty McFly, a 17-year-old high school student, is accidentally sent 30 years into the past in a time-traveling DeLorean invented by his close friend, the maverick scientist Doc Brown.",
+            "wins": 22,
+            "games played": 85,
+            "year": 1985,
+            "img dir": "img/back_to_the_future.jpg",
+            "trailer url": "qvsgGtivCgs"
+        },
+        {
+            "name": "Gladiator",
+            "info": "Maximus is a powerful Roman general, loved by the people and the aging Emperor, Marcus Aurelius. Before his death, the Emperor chooses Maximus to be his heir over his own son, Commodus, and a power struggle leaves Maximus and his family condemned to death. The powerful general is unable to save his family, and his loss of will allows him to get captured and put into the Gladiator games until he dies. The only desire that fuels him now is the chance to rise to the top so that he will be able to look into the eyes of the man who will feel his revenge.",
+            "wins": 15,
+            "games played": 66,
+            "year": 2000,
+            "img dir": "",
+            "trailer url": "AxQajgTyLcM"
+        },
+        {
+            "name": "Avengers: Infinity War",
+            "info": "The Avengers and their allies must be willing to sacrifice all in an attempt to defeat the powerful Thanos before his blitz of devastation and ruin puts an end to the universe.",
+            "wins": 0,
+            "games played": 0,
+            "year": 2018,
+            "img dir": "img/avengers_infinity_war.jpg",
+            "trailer url": "6ZfuNTqbHE8"
+        },
+        {
+            "name": "The Dark Knight Rises",
+            "info": "Eight years after the Joker's reign of anarchy, Batman, with the help of the enigmatic Selina Kyle, is forced from his exile to save Gotham City from the brutal guerrilla terrorist Bane.",
+            "wins": 0,
+            "games played": 0,
+            "year": 2012,
+            "img dir": "img/dark_knight_rises.jpg",
+            "trailer url": "GokKUqLcvD8"
+        },
+        {
+            "name": "Avengers: Endgame",
+            "info": "After the devastating events of Avengers: Infinity War (2018), the universe is in ruins. With the help of remaining allies, the Avengers assemble once more in order to reverse Thanos' actions and restore balance to the universe.",
+            "wins": 10,
+            "games played": 104,
+            "year": 2019,
+            "img dir": "img/avengers_endgame.jpg",
+            "trailer url": "TcMBFSGVi1c"
+        },
+        {
+            "name": "Batman Begins",
+            "info": "When his parents are killed, billionaire playboy Bruce Wayne relocates to Asia, where he is mentored by Henri Ducard and Ra's Al Ghul in how to fight evil. When learning about the plan to wipe out evil in Gotham City by Ducard, Bruce prevents this plan from getting any further and heads back to his home. Back in his original surroundings, Bruce adopts the image of a bat to strike fear into the criminals and the corrupt as the icon known as 'Batman'. But it doesn't stay quiet for long.",
+            "wins": 14,
+            "games played": 79,
+            "year": 2005,
+            "img dir": "img/batman_begins.jpg",
+            "trailer url": "neY2xVmOfUM"
+        },
+        {
+            "name": "The Wolf of Wall Street",
+            "info": "Based on the true story of Jordan Belfort, from his rise to a wealthy stock-broker living the high life to his fall involving crime, corruption and the federal government.",
+            "wins": 22,
+            "games played": 144,
+            "year": 2013,
+            "img dir": "img/wolf_of_wallstreet.jpg",
+            "trailer url": "iszwuX1AK6A"
+        },
+        {
+            "name": "Finding Nemo",
+            "info": "After his son is captured in the Great Barrier Reef and taken to Sydney, a timid clownfish sets out on a journey to bring him home.",
+            "wins": 0,
+            "games played": 0,
+            "year": 2003,
+            "img dir": "img/finding_nemo.jpg",
+            "trailer url": "SPHfeNgogVs"
+        },
+        {
+            "name": "12 Years a Slave",
+            "info": "Based on an incredible true story of one man's fight for survival and freedom. In the pre-Civil War United States, Solomon Northup, a free black man from upstate New York, is abducted and sold into slavery. Facing cruelty personified by a malevolent slave owner, as well as unexpected kindnesses, Solomon struggles not only to stay alive, but to retain his dignity. In the twelfth year of his unforgettable odyssey, Solomon's chance meeting with a Canadian abolitionist will forever alter his life.",
+            "wins": 20,
+            "games played": 100,
+            "year": 2013,
+            "img dir": "img/12years_a_slave.jpg",
+            "trailer url": "z02Ie8wKKRg"
+        },
+        {
+            "name": "Logan",
+            "info": "In a future where mutants are nearly extinct, an elderly and weary Logan leads a quiet life. But when Laura, a mutant child pursued by scientists, comes to him for help, he must get her to safety.",
+            "wins": 15,
+            "games played": 60,
+            "year": 2017,
+            "img dir": "img/logan.jpg",
+            "trailer url": "Div0iP65aZo"
+        },
+        {
+            "name": "Into the Wild",
+            "info": "After graduating from Emory University, top student and athlete Christopher McCandless abandons his possessions, gives his entire $24,000 savings account to charity and hitchhikes to Alaska to live in the wilderness. Along the way, Christopher encounters a series of characters that shape his life.",
+            "wins": 0,
+            "games played": 0,
+            "year": 2007,
+            "img dir": "img/into_the_wild.jpg",
+            "trailer url": "XZG1FzyB8DI"
+        },
+        {
+            "name": "Pirates of the Caribbean: The Curse of the Black Pearl",
+            "info": "Blacksmith Will Turner teams up with eccentric pirate 'Captain' Jack Sparrow to save his love, the governor's daughter, from Jack's former pirate allies, who are now undead.",
+            "wins": 12,
+            "games played": 89,
+            "year": 2003,
+            "img dir": "img/pirates_of_the_caribbean_black_pearl.jpg",
+            "trailer url": "naQr0uTrH_s"
+        },
+        {
+            "name": "Aladdin",
+            "info": "A kind-hearted street urchin Aladdin vies for the love of the beautiful princess Jasmine, the princess of Agrabah. When he finds a magic lamp, he uses the genie's magic power to make himself a prince in order to marry her. He's also on a mission to stop the powerful Jafar who plots to steal the magic lamp that could make his deepest wishes come true.",
+            "wins": 5,
+            "games played": 45,
+            "year": 2019,
+            "img dir": "img/aladdin.jpg",
+            "trailer url": "foyufD52aog"
+        },
+        {
+            "name": "The Avengers",
+            "info": "Earth's mightiest heroes must come together and learn to fight as a team if they are going to stop the mischievous Loki and his alien army from enslaving humanity.",
+            "wins": 15,
+            "games played": 39,
+            "year": 2012,
+            "img dir": "img/avengers.jpg",
+            "trailer url": "eOrNdBpGMv8"
+        },
+        {
+            "name": "Blade Runner 2049",
+            "info": "Young Blade Runner K's discovery of a long-buried secret leads him to track down former Blade Runner Rick Deckard, who's been missing for thirty years.",
+            "wins": 0,
+            "games played": 0,
+            "year": 2017,
+            "img dir": "img/blade_runner2049.jpg",
+            "trailer url": "gCcx85zbxz4"
+        },
+        {
+            "name": "The Bourne Ultimatum",
+            "info": "Jason Bourne dodges a ruthless C.I.A. official and his Agents from a new assassination program while searching for the origins of his life as a trained killer.",
+            "wins": 0,
+            "games played": 0,
+            "year": 2007,
+            "img dir": "img/bourne_ultimatum.jpg",
+            "trailer url": "ZT2ZxjUjSo0"
+        },
+        {
+            "name": "Sin City",
+            "info": "An exploration of the dark and miserable Basin City and three of its residents, all of whom are caught up in violent corruption.",
+            "wins": 0,
+            "games played": 0,
+            "year": 2005,
+            "img dir": "img/sin_city.jpg",
+            "trailer url": "T2Dj6ktPU5c"
+        },
+        {
+            "name": "Dunkirk",
+            "info": "Allied soldiers from Belgium, the British Commonwealth and Empire, and France are surrounded by the German Army and evacuated during a fierce battle in World War II.",
+            "wins": 12,
+            "games played": 33,
+            "year": 2017,
+            "img dir": "img/dunkirk.jpg",
+            "trailer url": "F-eMt3SrfFU"
+        },
+        {
+            "name": "The Hobbit: An Unexpected Journey",
+            "info": "A reluctant Hobbit, Bilbo Baggins, sets out to the Lonely Mountain with a spirited group of dwarves to reclaim their mountain home, and the gold within it from the dragon Smaug.",
+            "wins": 15,
+            "games played": 59,
+            "year": 2012,
+            "img dir": "img/hobbit_unexpected_journey.jpg",
+            "trailer url": "SDnYMbYB-nU"
+        },
+        {
+            "name": "Titanic",
+            "info": "A seventeen-year-old aristocrat falls in love with a kind but poor artist aboard the luxurious, ill-fated R.M.S. Titanic.",
+            "wins": 44,
+            "games played": 87,
+            "year": 1997,
+            "img dir": "img/titanic.jpg",
+            "trailer url": "CHekzSiZjrY"
+        },
+        {
+            "name": "Star Wars: Episode VII The Force Awakens",
+            "info": "As a new threat to the galaxy rises, Rey, a desert scavenger, and Finn, an ex-stormtrooper, must join Han Solo and Chewbacca to search for the one hope of restoring peace.",
+            "wins": 9,
+            "games played": 99,
+            "year": 2015,
+            "img dir": "img/star_wars_VII.jpg",
+            "trailer url": "sGbxmsDFVnE"
+        },
+        {
+            "name": "Jurassic World",
+            "info": "A new theme park, built on the original site of Jurassic Park, creates a genetically modified hybrid dinosaur, the Indominus Rex, which escapes containment and goes on a killing spree.",
+            "wins": 4,
+            "games played": 39,
+            "year": 2015,
+            "img dir": "img/jurassic_world.jpg",
+            "trailer url": "RFinNxS5KN4"
+        },
+        {
+            "name": "Furious 7",
+            "info": "After defeating international terrorist Owen Shaw, Dominic Toretto, Brian O'Conner and the rest of the crew have separated to return to more normal lives. However, Deckard Shaw, Owen's older brother, is thirsty for revenge. A slick government agent offers to help Dom and company take care of Shaw in exchange for their help in rescuing a kidnapped computer hacker who has developed a powerful surveillance program.",
+            "wins": 19,
+            "games played": 76,
+            "year": 2015,
+            "img dir": "img/furious7.jpg",
+            "trailer url": "Skpu5HaVkOc"
+        },
+        {
+            "name": "Star Wars: Episode VIII - The Last Jedi",
+            "info": "The Star Wars saga continues as new heroes and galactic legends go on an epic adventure, unlocking mysteries of the Force and shocking revelations of the past.",
+            "wins": 0,
+            "games played": 0,
+            "year": 2017,
+            "img dir": "img/star_wars_VIII.jpg",
+            "trailer url": "Q0CbN8sfihY"
+        },
+        {
+            "name": "Beauty and the Beast",
+            "info": "A selfish Prince is cursed to become a monster for the rest of his life, unless he learns to fall in love with a beautiful young woman he keeps prisoner.",
+            "wins": 11,
+            "games played": 24,
+            "year": 2017,
+            "img dir": "img/beauty_and_beast.jpg",
+            "trailer url": "e3Nl_TCQXuw"
+        },
+        {
+            "name": "Transformers: Dark of the Moon",
+            "info": "The Autobots learn of a Cybertronian spacecraft hidden on the moon, and race against the Decepticons to reach it and to learn its secrets.",
+            "wins": 0,
+            "games played": 0,
+            "year": 2011,
+            "img dir": "img/transformers_dark_moon.jpg",
+            "trailer url": "bTIrEZM-cFE"
+        },
+        {
+            "name": "Skyfall",
+            "info": "James Bond's loyalty to M is tested when her past comes back to haunt her. When MI6 comes under attack, 007 must track down and destroy the threat, no matter how personal the cost.",
+            "wins": 4,
+            "games played": 17,
+            "year": 2012,
+            "img dir": "img/skyfall.jpg",
+            "trailer url": "6kw1UVovByw"
+        },
+        {
+            "name": "Rogue One: A Star Wars Story",
+            "info": "In a time of conflict, a group of unlikely heroes band together on a mission to steal the plans to the Death Star, the Empire's ultimate weapon of destruction.",
+            "wins": 14,
+            "games played": 200,
+            "year": 2016,
+            "img dir": "img/rogue_one.jpg",
+            "trailer url": "frdj1zb9sMY"
+        },
+        {
+            "name": "Harry Potter and the Sorcerer's Stone",
+            "info": "An orphaned boy enrolls in a school of wizardry, where he learns the truth about himself, his family and the terrible evil that haunts the magical world.",
+            "wins": 10,
+            "games played": 52,
+            "year": 2001,
+            "img dir": "img/harry_potter.jpg",
+            "trailer url": "VyHV0BRtdxo"
+        },
+        {
+            "name": "Spectre",
+            "info": "A cryptic message from James Bond's past sends him on a trail to uncover the existence of a sinister organisation named SPECTRE. With a new threat dawning, Bond learns the terrible truth about the author of all his pain in his most recent missions.",
+            "wins": 15,
+            "games played": 105,
+            "year": 2015,
+            "img dir": "img/spectre.jpg",
+            "trailer url": "z4UDNzXD3qA"
+        },
+        {
+            "name": "The Hunger Games: Cathing Fire",
+            "info": "Katniss Everdeen and Peeta Mellark become targets of the Capitol after their victory in the 74th Hunger Games sparks a rebellion in the Districts of Panem.",
+            "wins": 13,
+            "games played": 86,
+            "year": 2013,
+            "img dir": "img/hunger_games_fire.jpg",
+            "trailer url": "EAzGXqJSDJ8"
+        },
+        {
+            "name": "Independence Day",
+            "info": "The aliens are coming and their goal is to invade and destroy Earth. Fighting superior technology, mankind's best weapon is the will to survive.",
+            "wins": 0,
+            "games played": 0,
+            "year": 1996,
+            "img dir": "img/independence_day.jpg",
+            "trailer url": "B1E7h3SeMDk"
+        },
+        {
+            "name": "Mission: Impossible - Fallout",
+            "info": "Two years after Ethan Hunt had successfully captured Solomon Lane, the remnants of the Syndicate have reformed into another organization called the Apostles. Under the leadership of a mysterious fundamentalist known only as John Lark, the organization is planning on acquiring three plutonium cores. Ethan and his team are sent to Berlin to intercept them, but the mission fails when Ethan saves Luther and the Apostles escape with the plutonium. With CIA agent August Walker joining the team, Ethan and his allies must now find the plutonium cores before it's too late",
+            "wins": 7,
+            "games played": 64,
+            "year": 2018,
+            "img dir": "img/mission_impossible_fallout.jpg",
+            "trailer url": "wb49-oV0F78"
+        },
+        {
+            "name": "Maleficient",
+            "info": "A vengeful fairy is driven to curse an infant princess, only to discover that the child may be the one person who can restore peace to their troubled land.",
+            "wins": 0,
+            "games played": 0,
+            "year": 2014,
+            "img dir": "img/maleficent.jpg",
+            "trailer url": "704EXbJ-b5k"
+        },
+        {
+            "name": "It",
+            "info": "In the summer of 1989, a group of bullied kids band together to destroy a shape-shifting monster, which disguises itself as a clown and preys on the children of Derry, their small Maine town.",
+            "wins": 0,
+            "games played": 0,
+            "year": 2017,
+            "img dir": "img/it.jpg",
+            "trailer url": "FnCdOQsX5kc"
+        },
+        {
+            "name": "Men in Black 3",
+            "info": "Agent J travels in time to M.I.B.'s early days in 1969 to stop an alien from assassinating his friend Agent K and changing history.",
+            "wins": 0,
+            "games played": 0,
+            "year": 2012,
+            "img dir": "img/men_in_black3.jpg",
+            "trailer url": "IyaFEBI_L24"
+        },
+        {
+            "name": "Casino Royale",
+            "info": "After earning 00 status and a licence to kill, secret agent James Bond sets out on his first mission as 007. Bond must defeat a private banker funding terrorists in a high-stakes game of poker at Casino Royale, Montenegro.",
+            "wins": 0,
+            "games played": 0,
+            "year": 2006,
+            "img dir": "img/casino_royale.jpg",
+            "trailer url": "lhXpiXVB-rc"
+        },
+        {
+            "name": "Night at the Museum",
+            "info": "A newly recruited night security guard at the Museum of Natural History discovers that an ancient curse causes the animals and exhibits on display to come to life and wreak havoc.",
+            "wins": 0,
+            "games played": 0,
+            "year": 2006,
+            "img dir": "img/night_at_the_museum.jpg",
+            "trailer url": "Ltba1_-tRT4"
+        },
+        {
+            "name": "Kong: Skull Island",
+            "info": "After the Vietnam war, a team of scientists explores an uncharted island in the Pacific, venturing into the domain of the mighty Kong, and must fight to escape a primal Eden.",
+            "wins": 0,
+            "games played": 0,
+            "year": 2017,
+            "img dir": "img/kong.jpg",
+            "trailer url": "44LdLqgOpjo"
+        },
+        {
+            "name": "The Smurfs",
+            "info": "When the evil wizard Gargamel chases the tiny blue Smurfs out of their village, they tumble from their magical world into New York City.",
+            "wins": 0,
+            "games played": 0,
+            "year": 2011,
+            "img dir": "img/smurfs.jpg",
+            "trailer url": "yhBpgqXwrt8"
+        },
+        {
+            "name": "Ted",
+            "info": "John Bennett, a man whose childhood wish of bringing his teddy bear to life came true, now must decide between keeping the relationship with the bear, Ted or his girlfriend, Lori.",
+            "wins": 0,
+            "games played": 0,
+            "year": 2012,
+            "img dir": "img/ted.jpg",
+            "trailer url": "9fbo_pQvU7M"
+        },
+        {
+            "name": "Troy",
+            "info": "An adaptation of Homer's great epic, the film follows the assault on Troy by the united Greek forces and chronicles the fates of the men involved.",
+            "wins": 4,
+            "games played": 17,
+            "year": 2004,
+            "img dir": "img/troy.jpg",
+            "trailer url": "znTLzRJimeY"
+        },
+        {
+            "name": "Teenage Mutant Ninja Turtles",
+            "info": "When a kingpin threatens New York City, a group of mutated turtle warriors must emerge from the shadows to protect their home.",
+            "wins": 0,
+            "games played": 0,
+            "year": 2014,
+            "img dir": "img/mutant_ninja_turtles.jpg",
+            "trailer url": "VZZ0PnDZdZk"
+        },
+        {
+            "name": "Home Alone",
+            "info": "An eight-year-old troublemaker must protect his house from a pair of burglars when he is accidentally left home alone by his family during Christmas vacation.",
+            "wins": 10,
+            "games played": 60,
+            "year": 1990,
+            "img dir": "img/home_alone.jpg",
+            "trailer url": "jEDaVHmw7r4"
+        },
+        {
+            "name": "San Andreas",
+            "info": "In the aftermath of a massive earthquake in California, a rescue-chopper pilot makes a dangerous journey with his ex-wife across the state in order to rescue his daughter.",
+            "wins": 0,
+            "games played": 0,
+            "year": 2015,
+            "img dir": "img/san_andreas.jpg",
+            "trailer url": "23VflsU3kZE"
+        },
+        {
+            "name": "National Treasure: Book of Secrets",
+            "info": "Benjamin Gates must follow a clue left in John Wilkes Booth's diary to prove his ancestor's innocence in the assassination of Abraham Lincoln.",
+            "wins": 0,
+            "games played": 0,
+            "year": 2007,
+            "img dir": "img/national_treasure.jpg",
+            "trailer url": "lq6MlrkFHG0"
+        },
+        {
+            "name": "300",
+            "info": "In 480 B.C. a state of war exists between Persia, led by King Xerxes, and Greece. At the Battle of Thermopylae, Leonidas, king of the Greek city state of Sparta, leads his badly outnumbered warriors against the massive Persian army. Though certain death awaits the Spartans, their sacrifice inspires all of Greece to unite against their common enemy.",
+            "wins": 15,
+            "games played": 70,
+            "year": 2006,
+            "img dir": "img/300.jpg",
+            "trailer url": "UrIbxk7idYA"
+        },
+        {
+            "name": "Les Misérables",
+            "info": "In 19th-century France, Jean Valjean, who for decades has been hunted by the ruthless policeman Javert after breaking parole, agrees to care for a factory worker's daughter. The decision changes their lives forever.",
+            "wins": 3,
+            "games played": 27,
+            "year": 2012,
+            "img dir": "img/les_miserables.jpg",
+            "trailer url": "IuEFm84s4oI"
+        },
+        {
+            "name": "Kingsman: The Secret Service",
+            "info": "A spy organisation recruits a promising street kid into the agency's training program, while a global threat emerges from a twisted tech genius.",
+            "wins": 5,
+            "games played": 100,
+            "year": 2014,
+            "img dir": "img/kingsman.jpg",
+            "trailer url": "kl8F-8tR8to"
+        },
+        {
+            "name": "Spider-Man 2",
+            "info": "When a failed nuclear fusion experiment results in an explosion that kills his wife, Dr. Otto Octavius is transformed into Dr. Octopus, a cyborg with deadly metal tentacles. Doc Ock blames Spider-Man for the accident and seeks revenge. Meanwhile, Spidey's alter ego, Peter Parker, faces fading powers and self-doubt. Complicating matters are his best friend's hatred for Spider-Man and his true love's sudden engagement to another man.",
+            "wins": 14,
+            "games played": 70,
+            "year": 2004,
+            "img dir": "img/spider_man2.jpg",
+            "trailer url": "1s9Yln0YwCw"
+        },
+        {
+            "name": "Drive",
+            "info": "A mysterious Hollywood action film stuntman gets in trouble with gangsters when he tries to help his neighbor's husband rob a pawn shop while serving as his getaway driver,",
+            "wins": 0,
+            "games played": 0,
+            "year": 2011,
+            "img dir": "img/drive.jpg",
+            "trailer url": "KBiOF3y1W0Y"
+        },
+        {
+            "name": "The Master",
+            "info": "A Naval veteran arrives home from war unsettled and uncertain of his future - until he is tantalized by the Cause and its charismatic leader.",
+            "wins": 0,
+            "games played": 0,
+            "year": 2012,
+            "img dir": "img/the_master.jpg",
+            "trailer url": "-EGSWpBDbho"
+        },
+        {
+            "name": "The Social Network",
+            "info": "As Harvard student Mark Zuckerberg creates the social networking site that would become known as Facebook, he is sued by the twins who claimed he stole their idea, and by the co-founder who was later squeezed out of the business.",
+            "wins": 0,
+            "games played": 0,
+            "year": 2010,
+            "img dir": "img/social_network.jpg",
+            "trailer url": "lB95KLmpLR4"
+        },
+        {
+            "name": "John Wick",
+            "info": "An ex-hit-man comes out of retirement to track down the gangsters that killed his dog and took his car.",
+            "wins": 0,
+            "games played": 0,
+            "year": 2014,
+            "img dir": "img/john_wick.jpg",
+            "trailer url": "C0BMx-qxsP4"
+        },
+        {
+            "name": "John Wick: Chapter 2",
+            "info": "After returning to the criminal underworld to repay a debt, John Wick discovers that a large bounty has been put on his life.",
+            "wins": 12,
+            "games played": 90,
+            "year": 2017,
+            "img dir": "img/john_wick2.jpg",
+            "trailer url": "XGk2EfbD_Ps"
+        },
+        {
+            "name": "John Wick: Chapter 3 - Parabellum",
+            "info": "John Wick is on the run after killing a member of the international assassins' guild, and with a $14 million price tag on his head, he is the target of hit men and women everywhere.",
+            "wins": 0,
+            "games played": 0,
+            "year": 2019,
+            "img dir": "img/john_wick3.jpg",
+            "trailer url": "M7XM597XO94"
+        }
+        
+    ]
+}
