@@ -1,7 +1,19 @@
 //copy of the json array
 var newMovieArray;
 var leftButtonClicked = false;
-var count = 0; 
+var count = 0;
+var rounds = localStorage.getItem("rounds");
+var movieArray = [];
+fetch("movies.json")
+.then(response => response.json())
+.then(json => {
+    json.movies.forEach(movie => {
+        movieArray.push(movie);
+    });
+})
+.then(() => {
+    startGame(rounds);
+}); 
 
 window.onload=function(){
     $("#left-button").on("click", function(){

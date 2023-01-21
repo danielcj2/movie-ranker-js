@@ -11,21 +11,7 @@
     <title>Game On!</title>
     <link rel="icon" href="img/clapperboard.png">
 </head>
-<body> 
-    <script>
-        var rounds = localStorage.getItem("rounds");
-        var movieArray = [];
-        fetch("movies.json")
-        .then(response => response.json())
-        .then(json => {
-            json.movies.forEach(movie => {
-                movieArray.push(movie);
-            });
-        })
-        .then(() => {
-            startGame(rounds);
-        });
-    </script>   
+<body>  
     <header class="header">
         <button class="home col-sm-1 btn">Leaderboard</button>
     </header>
