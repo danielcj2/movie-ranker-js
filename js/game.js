@@ -1,3 +1,4 @@
+//copy of the json array
 var newMovieArray;
 var leftButtonClicked = false;
 var count = 0; 
@@ -24,6 +25,7 @@ function shuffleArray(arr){
 
 function startGame(rounds){
     shuffleArray(movieArray);
+    //select last #rounds movies from array
     newMovieArray = movieArray.slice(movieArray.length - rounds - 1, movieArray.length - 1);
 
     updateRounds();
@@ -59,7 +61,7 @@ function nextRound(){
         rounds = rounds / 2;
     }
 
-    console.log(count, " ", rounds);
+    //console.log(count, " ", rounds);
     remove();
 
     if(count == rounds){
@@ -99,6 +101,7 @@ function updateRounds(){
     }
 }
 
+//popup
 function winner(){
     $("#movieSelections").text("Out of " + localStorage.getItem("rounds") + " random selections");
     $("#winnerMovie").attr("src", newMovieArray[0]["img dir"]);

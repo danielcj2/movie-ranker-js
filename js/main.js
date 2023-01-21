@@ -1,5 +1,7 @@
+//Redirect to gamepage.html once the button is clicked
 $(".start-game").click(function(){start();});
 
+//scroll up button
 window.onscroll = function() {scrollBtnShowHide()};
 let btn = document.getElementById("scrollBtn");
 
@@ -19,6 +21,7 @@ function scrollUp(){
     document.documentElement.scrollTop = 0;
 }
 
+//refresh content
 function changeList($number){
     let text = $number.text();
     //clear div
@@ -29,6 +32,7 @@ function changeList($number){
     displayMovies(text);
 }
 
+//list movies
 function displayMovies($number){
     movieList.sort(function (a, b) {
         if(a["games played"] == b["games played"] && a.wins == b.wins)     
@@ -78,5 +82,5 @@ function displayMovies($number){
 function start(){
     var value = $("input[name='radiobtn']:checked").val();
     localStorage.setItem("rounds", value);
-    location.replace("gamepage.html");
+    location.href = "gamepage.html";
 }
