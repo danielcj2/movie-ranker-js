@@ -1,9 +1,13 @@
-//copy of the json array
-var newMovieArray;
+//declare variables
+var newMovieArray; //copy of the json array
 var leftButtonClicked = false;
 var count = 0;
-var rounds = localStorage.getItem("rounds");
+//Every round 2 movies go against one another
+//Number of rounds = Number of Movies / 2
+var numberOfMovies = localStorage.getItem("rounds"); //Retrieve movie #
 var movieArray = [];
+
+//fetch data from json and store into array
 fetch("movies.json")
 .then(response => response.json())
 .then(json => {
@@ -12,21 +16,21 @@ fetch("movies.json")
     });
 })
 .then(() => {
-    startGame(rounds);
+    startGame(numberOfMovies);
 }); 
 
-window.onload=function(){
-    $("#left-button").on("click", function(){
-        leftButtonClicked = true;
-        nextRound();
-    });
+//button functions
+$("#left-button").on("click", function(){
+    leftButtonClicked = true;
+    nextRound();
+});
 
-    $("#right-button").on("click", function(){
-        leftButtonClicked = false;
-        nextRound();
-    });
-}
+$("#right-button").on("click", function(){
+    leftButtonClicked = false;
+    nextRound();
+});
 
+//randomize
 function shuffleArray(arr){
     let length = arr.length - 1;
     for (let i = length; i > 0; i--) {
@@ -35,16 +39,17 @@ function shuffleArray(arr){
     }
 } 
 
-function startGame(rounds){
+function startGame(numberOfMovies){
     shuffleArray(movieArray);
-    //select last #rounds movies from array
-    newMovieArray = movieArray.slice(movieArray.length - rounds - 1, movieArray.length - 1);
+    
+    newMovieArray = movieArray.slice(0, numberOfMovies - 1); //select # of movies from array
 
-    updateRounds();
-    changeMovie();
+    updateRounds(); //Update counter
+    changeMovie(); //Change movie yt embeds
     count++;
 }
 
+//remove movie item from the array copy
 function remove(){
     if(leftButtonClicked == true){
         var movieName = $("#right-movie-title").text();
@@ -62,6 +67,7 @@ function remove(){
         }
     } 
 
+    //when there is one movie remaining in the array, popup modal
     if(newMovieArray.length == 1){
         $("#game-modal").modal("show");
         winner();
@@ -69,14 +75,15 @@ function remove(){
 }
 
 function nextRound(){
-    if((newMovieArray.length - 1) == (rounds / 2)){
-        rounds = rounds / 2;
+    if((newMovieArray.length - 1) == (numberOfMovies / 2)){
+        numberOfMovies = numberOfMovies / 2;
     }
 
-    //console.log(count, " ", rounds);
+    //remove movie from array
     remove();
 
-    if(count == rounds){
+    //reset counter
+    if(count == numberOfMovies){
         count = 0;
     }
 
@@ -89,7 +96,7 @@ function nextRound(){
 
 
 function changeMovie(){
-    let embed = "https://www.youtube-nocookie.com/embed/";
+    let embed = "https://www.youtube-nocookie.com/embed/"; //embed string
     let autoplay = "?loop=1&autoplay=1&mute=1&rel=0&autohide=1&showinfo=0&fs=0&modestbranding=1&playlist=";
 
     //change left-movie
@@ -102,14 +109,14 @@ function changeMovie(){
 }
 
 function updateRounds(){
-    if(rounds / 2 == 4){
-        $("#game-rounds").text("QUARTER-FINALS " + "  " + (count+1) + " / " + (rounds/2));
+    if(numberOfMovies / 2 == 4){
+        $("#game-rounds").text("QUARTER-FINALS " + "  " + (count+1) + " / " + (numberOfMovies/2));
     } else if(rounds / 2 == 2){
-        $("#game-rounds").text("SEMI-FINALS " + "  " + (count+1) + " / " + (rounds/2));
+        $("#game-rounds").text("SEMI-FINALS " + "  " + (count+1) + " / " + (numberOfMovies/2));
     } else if( rounds / 2 == 1){
         $("#game-rounds").text("FINALS");
     } else {
-        $("#game-rounds").text("Round of " + rounds + "  " + (count+1) + " / " + (rounds/2)); 
+        $("#game-rounds").text("Round of " + numberOfMovies + "  " + (count+1) + " / " + (numberOfMovies/2)); 
     }
 }
 
