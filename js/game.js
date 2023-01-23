@@ -42,7 +42,7 @@ function shuffleArray(arr){
 function startGame(numberOfMovies){
     shuffleArray(movieArray);
     
-    newMovieArray = movieArray.slice(0, numberOfMovies - 1); //select # of movies from array
+    newMovieArray = movieArray.slice(0, numberOfMovies); //select # of movies from array
 
     updateRounds(); //Update counter
     changeMovie(); //Change movie yt embeds
@@ -111,9 +111,9 @@ function changeMovie(){
 function updateRounds(){
     if(numberOfMovies / 2 == 4){
         $("#game-rounds").text("QUARTER-FINALS " + "  " + (count+1) + " / " + (numberOfMovies/2));
-    } else if(rounds / 2 == 2){
+    } else if(numberOfMovies / 2 == 2){
         $("#game-rounds").text("SEMI-FINALS " + "  " + (count+1) + " / " + (numberOfMovies/2));
-    } else if( rounds / 2 == 1){
+    } else if(numberOfMovies / 2 == 1){
         $("#game-rounds").text("FINALS");
     } else {
         $("#game-rounds").text("Round of " + numberOfMovies + "  " + (count+1) + " / " + (numberOfMovies/2)); 
