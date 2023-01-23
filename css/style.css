@@ -161,7 +161,7 @@ body, .dropdown-menu, .dropdown-item, .modal-content, .close-modal, .progress{
 }
 
 .rank{
-    margin-right: 0.5rem;
+    margin: 0.5rem;
     min-width: 2rem;
     height: 2rem;
     font-size: 1.5rem;
